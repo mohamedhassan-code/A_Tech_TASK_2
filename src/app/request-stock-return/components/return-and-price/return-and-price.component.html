@@ -1,0 +1,50 @@
+<section class="flex items-center flex-col md:flex-row gap-3 my-3">
+  <fieldset class="w-full md:w-auto">
+    <label for="inputNumber" class="block text-xs font-normal mb-1">{{
+      "returnQuantity" | translate
+    }}</label>
+    <div
+      class="flex border w-full md:w-min p-[0.3rem] border-[#E0E3E9] rounded-md"
+    >
+      <p-inputNumber
+        [(ngModel)]="value"
+        [showButtons]="true"
+        inputId="inputNumber"
+        class="!w-full md:!w-auto"
+        styleClass="inputNumber "
+        [suffix]="prefix"
+        [autofocus]="true"
+        buttonLayout="horizontal"
+        incrementButtonIcon="pi pi-plus"
+        decrementButtonIcon="pi pi-minus"
+      ></p-inputNumber>
+    </div>
+  </fieldset>
+  <fieldset class="flex items-center w-full md:w-auto">
+    <article class="w-full md:w-auto">
+      <fieldset class="flex mb-1 items-center gap-[0.15rem]">
+        <label for="inputNumber" class="text-xs font-normal">{{
+          "returnPrice" | translate
+        }}</label>
+        <img src="assets/icons/info-circle.svg" />
+      </fieldset>
+
+      <div
+        class="flex items-center border p-[0.4rem] w-70% md:w-auto border-[#E0E3E9] rounded-md"
+      >
+        <p-inputNumber
+          styleClass="inputCurrency"
+          class="w-full md:w-auto"
+          [suffix]="prefixCurrency"
+          [formControl]="currency"
+        ></p-inputNumber>
+        <hr />
+
+        <img src="assets/icons/egypt.svg" />
+        <p class="pound text-[0.625rem] mx-1 text-[#83899F] font-normal">
+          {{ "pound" | translate }}
+        </p>
+      </div>
+    </article>
+  </fieldset>
+</section>

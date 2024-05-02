@@ -1,0 +1,21 @@
+{
+  "lang": "تغيير اللغة",
+  "title": "طلب إرجاع مخزون",
+  "detailsOrder": "تفاصيل مرتجع طلب الشراء",
+  "productName": "اسم المنتج",
+  "chooseProduct": "اختر المنتج ",
+  "purchase": "رقم طلب الشراء",
+  "chooseOrder": "اختر رقم الطلب",
+  "returnQuantity": "كمية المرتجع",
+  "unit": " الوحدة",
+  "returnPrice": "سعر الإرجاع ( للوحدة)",
+  "pound": "جنية مصري",
+  "Egp": " ج.م",
+  "reasonReturn": "سبب الإرجاع",
+  "reasonReturn_b": "يرجي كتابة سبب عملية الأرجاع",
+  "selectProduct": "لم تقم بإختيار منتج",
+  "selectProduct_b": "يرجي إختيار منتج لعرض تفاصيل المخزون ",
+  "totalPurchases": "إجمالي المشتريات",
+  "addRequest": "إضافة الطلب",
+  "cancel": "إلغاء"
+}

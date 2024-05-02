@@ -1,0 +1,21 @@
+{
+  "lang": "Change language",
+  "title": "Request a stock return",
+  "detailsOrder": "Purchase order return details",
+  "productName": "Product Name",
+  "chooseProduct": "Choose the product",
+  "purchase": "Purchase order number",
+  "chooseOrder": "Choose the order number",
+  "returnQuantity": "Return quantity",
+  "unit": "unit ",
+  "returnPrice": "Return price (per unit)",
+  "pound": "Egyptian Pound",
+  "Egp": "EGP ",
+  "reasonReturn": "Reason for return",
+  "reasonReturn_b": "Please write the reason for the return",
+  "selectProduct": "You have not selected a product",
+  "selectProduct_b": "Please select a product to view stock details",
+  "totalPurchases": "Total purchases",
+  "addRequest": "Add request",
+  "cancel": "Cancel"
+}

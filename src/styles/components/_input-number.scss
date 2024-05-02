@@ -1,0 +1,50 @@
+.inputNumber {
+  align-items: center;
+  width: 100%;
+  .p-inputtext {
+    border: 0 !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+    text-align: center !important;
+    font-size: 0.688rem !important;
+    width: 7rem !important;
+    font-weight: 400 !important;
+    color: black !important;
+  }
+
+  button {
+    padding: 0;
+    width: 1.249rem;
+    border-radius: 0.25rem;
+    height: 1.25rem;
+  }
+}
+
+.inputCurrency {
+  .p-inputtext {
+    border: 0 !important;
+    box-shadow: none !important;
+    font-weight: 400 !important;
+    padding: 0 !important;
+    width: 7.2rem !important;
+    font-size: 0.688rem !important;
+    color: black !important;
+  }
+}
+.p-inputnumber-buttons-horizontal .p-button.p-inputnumber-button-up {
+  order: 1;
+}
+.p-inputnumber-buttons-horizontal .p-button.p-inputnumber-button-down {
+  order: 3;
+}
+.pi {
+  font-size: 0.5rem;
+}
+
+.p-inputtext {
+  font-size: 0.625rem;
+  color: #83899f;
+  padding: 0.4rem;
+  border-radius: 0.25rem;
+  font-weight: 400;
+}

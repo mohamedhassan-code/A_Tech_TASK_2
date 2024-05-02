@@ -1,0 +1,29 @@
+.productName {
+  border: none;
+  font-size: 0.875rem;
+  width: 100%;
+  font-weight: 400;
+  box-shadow: none;
+  .p-inputtext {
+    padding: 0.25rem 0;
+    font-size: 0.75rem;
+    font-weight: 400;
+    color: black;
+  }
+  .p-dropdown-trigger {
+    width: 0.8rem;
+  }
+  .p-icon {
+    width: 0.8rem;
+    color: #2e2e2e;
+    height: 0.5rem;
+  }
+  .p-dropdown-items-wrapper {
+    color: black;
+    font-size: 0.75rem;
+    font-weight: 400;
+    ul {
+      padding: 0;
+    }
+  }
+}

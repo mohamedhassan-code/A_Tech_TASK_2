@@ -1,0 +1,17 @@
+<section class="w-3/5 m-auto mt-12">
+  <fieldset class="flex justify-center gap-5">
+    <button
+      class="bg-blue-600 text-white p-3 !rounded-lg"
+      (click)="openDialog()"
+    >
+      {{ "title" | translate }}
+    </button>
+    <button
+      class="bg-blue-600 text-white p-3 !rounded-lg"
+      (click)="changeLang()"
+      type="button"
+    >
+      {{ "lang" | translate }}
+    </button>
+  </fieldset>
+</section>

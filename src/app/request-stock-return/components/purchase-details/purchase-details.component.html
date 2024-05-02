@@ -1,0 +1,42 @@
+<section>
+  <h4 class="text-sm font-medium mb-[0.40rem]">
+    {{ "detailsOrder" | translate }}
+  </h4>
+  <fieldset class="mb-2">
+    <label for="productName" class="d-block text-xs font-normal mb-1">{{
+      "productName" | translate
+    }}</label>
+    <div class="borderColor px-2 flex border items-center rounded">
+      <img src="assets/icons/box.svg" />
+      <hr />
+      <p-dropdown
+        appDropdownFocus
+        [options]="cities"
+        class="w-full"
+        optionLabel="name"
+        inputId="productName"
+        styleClass="productName"
+        [placeholder]="'chooseProduct' | translate"
+      >
+      </p-dropdown>
+    </div>
+  </fieldset>
+  <fieldset class="mb-2">
+    <label for="purchase" class="block text-xs font-normal mb-1">{{
+      "purchase" | translate
+    }}</label>
+    <div class="borderColor flex border items-center px-2 rounded">
+      <img src="assets/icons/document-text.svg" />
+      <hr />
+      <p-dropdown
+        inputId="purchase"
+        [options]="cities"
+        optionLabel="name"
+        class="w-full"
+        styleClass="productName"
+        [placeholder]="'chooseOrder' | translate"
+      >
+      </p-dropdown>
+    </div>
+  </fieldset>
+</section>

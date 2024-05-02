@@ -1,0 +1,37 @@
+<article>
+  <div class="mb-3">
+    <label for="purchase" class="block text-xs font-normal mb-1">{{
+      "reasonReturn" | translate
+    }}</label>
+    <textarea
+      type="text"
+      class="w-full text-[0.625rem] p-0"
+      styleClass="inputText"
+      placeholder="{{ 'reasonReturn_b' | translate }}"
+      pInputText
+      [rows]="1"
+      [formControl]="text"
+      pInputTextarea
+    ></textarea>
+  </div>
+  <div class="flex justify-between">
+    <div
+      class="flex border-[0.5px] rounded items-center border-[#99A1B799] w-[65%]"
+    >
+      <figure class="bg-[#f5f6f8] border border-dashed rounded mx-2">
+        <img src="assets/icons/box_1.svg" />
+      </figure>
+      <fieldset>
+        <h5 class="text-[0.625rem] font-medium text-black">
+          {{ "selectProduct" | translate }}
+        </h5>
+        <p class="text-[0.5rem] font-normal text-[#83899F] mb-1">
+          {{ "selectProduct_b" | translate }}
+        </p>
+        <p-skeleton width="8rem" styleClass="mb-2 !h-[0.4rem]"></p-skeleton>
+        <p-skeleton width="6rem" styleClass="mb-2 !h-[0.4rem]"></p-skeleton>
+      </fieldset>
+    </div>
+    <figure><img src="assets/icons/click-here.svg" /></figure>
+  </div>
+</article>

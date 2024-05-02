@@ -1,0 +1,21 @@
+.p-dialog {
+  box-shadow: none;
+  .p-dialog-content {
+    border-radius: 0.75rem !important ;
+    padding: 0;
+  }
+}
+.dialogDeal {
+  width: 28.188rem !important;
+  height: 32rem !important;
+}
+
+@media screen and (max-width: 768px) {
+  .p-dialog {
+    max-height: 100% !important;
+  }
+  .dialogDeal {
+    width: 100% !important;
+    height: 100% !important;
+  }
+}

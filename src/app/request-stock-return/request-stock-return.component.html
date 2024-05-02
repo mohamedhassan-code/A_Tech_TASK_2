@@ -1,0 +1,49 @@
+<section class="text-black h-[81%]">
+  <header class="flex justify-between items-center p-3">
+    <figure class="flex justify-between items-center">
+      <img src="assets/icons/icon-title.svg" />
+      <figcaption class="mx-2">
+        <h2 class="text-sm font-medium">
+          {{ "title" | translate }}
+        </h2>
+      </figcaption>
+    </figure>
+    <img
+      class="cursor-pointer"
+      src="assets/icons/closeIcon.svg"
+      (click)="__dialogRef.close()"
+    />
+  </header>
+
+  <section class="bg-[#F3F5F7] p-3 h-full">
+    <section
+      class="bg-white rounded-md p-4 h-full flex flex-col justify-between overflow-y-auto"
+    >
+      <app-purchase-details />
+      <app-return-and-price />
+      <app-reason-return />
+    </section>
+  </section>
+  <footer p-dialog-footer class="pt-1 px-3 flex justify-between items-center">
+    <fieldset>
+      <p class="text-[0.625rem] text-[#83899F]">
+        {{ "totalPurchases" | translate }}
+      </p>
+      <span class="text-base text-black font-semibold">
+        00.0{{ "Egp" | translate }}
+      </span>
+    </fieldset>
+    <div class="flex gap-2">
+      <button
+        class="text-xs text-[#FCFCFC] bg-[#0771DE] py-[0.375rem] px-[0.4rem] !rounded-md font-normal"
+      >
+        {{ "addRequest" | translate }}
+      </button>
+      <button
+        class="text-xs border border-[#99A1B733] py-[0.375rem] px-[0.55rem] text-[#898995] p-1 bg-[#eff0f3] !rounded-md font-normal"
+      >
+        {{ "cancel" | translate }}
+      </button>
+    </div>
+  </footer>
+</section>
